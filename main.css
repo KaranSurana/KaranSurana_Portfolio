@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap');
+
+*{
+    background-color: #020c1b;
+    margin: 0;
+    padding: 2px;
+}
+
+#logosvg{
+    position: relative;
+    left: 2.3vw;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    
+    justify-content: space-between;
+    position: fixed;
+    opacity: 0.8;
+}
+h1{
+    color: aliceblue;
+}
+#hex{
+    stroke-width:2;
+    stroke: #64ffda;
+}
+#navbar{
+    cursor: context-menu;
+    color: white;
+    font-family: monospace;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    min-width: 40%;
+    max-width: 40%;
+    align-items: center;
+}
+
+a:active{
+    padding: 10px;
+    border-color: #64ffda;
+    border-width:2px;  
+    border-style:dashed;
+}
+
+.vl {
+    border: 6px solid green;
+    border-radius: 100%;
+    height: 20vh;
+  }
+
+.fab{
+    display: block;
+    color: white;
+    
+}
+
+#vertical_line{
+    position: fixed;
+    top: 85vh;
+    left: 5vw;
+}
+
+#verticalline{
+    position: fixed;
+    top: 80vh;
+    left: 95vw;
+}
+
+#email{
+    writing-mode: vertical-rl;
+    color: #a8b2d1;
+    font-family: monospace;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 50vh;
+    left: 94.7vw;
+    text-decoration: none;
+}
+
+#email:hover{
+    color: #64ffda;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+#first{
+    position: fixed;
+    top: 64vh;
+    left: 4.6vw;
+    font-size: larger;
+    color: #a8b2d1;
+}
+#second{
+    position: fixed;
+    top: 69vh;
+    left: 4.6vw;
+    font-size: larger;
+    color: #a8b2d1;
+}
+#third{
+    position: fixed;
+    top: 74vh;
+    left: 4.6vw;
+    font-size: larger;
+    color: #a8b2d1; 
+}
+#fourth{
+    position: fixed;
+    top: 79vh;
+    left: 4.6vw;
+    font-size: larger;
+    color: #a8b2d1;
+}
+
+#first:hover{
+    transform: scale(1.5);
+    color: #64ffda;
+    transition: all 0.2s ease-in-out;
+}
+
+#second:hover{
+    transform: scale(1.5);
+    color: #64ffda;
+    transition: all 0.2s ease-in-out;
+}
+#third:hover{
+    transform: scale(1.5);
+    color: #64ffda;
+    transition: all 0.2s ease-in-out;
+}
+#fourth:hover{
+    color: #64ffda;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+}
+
+#first_statement{
+    font-family: monospace;
+    color: #64ffda;
+    position: relative;
+    top: 12vh;
+    left: 17vw;
+}
+
+#name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.5em;
+    font-weight: 600;
+    position: relative;
+    top: 14vh;
+    left: 16.6vw;
+    color: #a8b2d1;
+    display: inline-block;
+}
+
+#color_change{
+    color: #ccd6f6;
+}
+
+#resume{
+    color: #64ffda;
+    border: 2px solid #64ffda;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a8b2d1;
+    position: relative;
+    font-size: larger;
+    top: 17vh;
+    left: 17vw;
+    width: 37vw;
+    text-align: justify;
+    font-weight: 1;
+}
+
+#calltoaction{
+    text-decoration: none;
+    font-family: monospace;
+    border: 2px solid #64ffda;
+    font-size: larger;
+    color: #64ffda;
+    padding: 18px;
+    border-radius: 5px;
+    position: relative;
+    top: 25vh;
+    left: 17vw;
+    transition: all 0.3s ease-in-out;
+}
+
+#calltoaction:hover{
+    background-color: rgba(211, 211, 211, 0.144);
+}
+
+#about{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ccd6f6;
+    font-size: x-large;
+    position: relative;
+    top: 60vh;
+    left: 17vw;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #888; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  #line_aboutme{
+    position: relative;
+    top: 57.9vh;
+    left: 25vw;
+  }
+  #work{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ccd6f6;
+    font-size: x-large;
+    position: relative;
+    top: 90vh;
+    left: 17vw;
+  }
+  #built{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ccd6f6;
+    font-size: x-large;
+    position: relative;
+    top: 120vh;
+    left: 17vw;
+  }
+  #line_aboutme1{
+    position: relative;
+    top: 87.9vh;
+    left: 32vw;
+  }
+  #line_aboutme2{
+    position: relative;
+    top: 117.9vh;
+    left: 34vw;
+  }
