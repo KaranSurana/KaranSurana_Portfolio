@@ -239,7 +239,7 @@ h4{
     color: #ccd6f6;
     font-size: x-large;
     position: relative;
-    top: 90vh;
+    top: 23vh;
     left: 17vw;
   }
   #built{
@@ -252,7 +252,7 @@ h4{
   }
   #line_aboutme1{
     position: relative;
-    top: 87.9vh;
+    top: 20.9vh;
     left: 32vw;
   }
   #line_aboutme2{
@@ -260,3 +260,66 @@ h4{
     top: 117.9vh;
     left: 34vw;
   }
+
+  #aboutpara{
+    position: relative;
+    top: 37.9vh;
+    left: 17vw;
+    width: 37vw;
+    color: #ccd6f6;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    line-height: 1.5em;
+  }
+
+.colorchange{
+    color: #64ffda;
+}
+#skills{
+    position: relative;
+    top: -4vh;
+    left: 17vw;
+    display: flex;
+    height: 18vh;
+    width: 25vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skills>div{
+    width: 40%;
+}
+div>p{
+    color: #ccd6f6;
+    font-family: monospace;
+    display: inline-block;
+}
+.fas{
+    color: #64ffda;
+}
+
+#imageuser{
+    width: 22vw;
+    height: 45vh;
+    border: 2px solid #64ffda;
+    position: relative;
+    left: 58vw;
+    transition: all 0.4s ease-in-out;
+}
+
+#myimage{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -4vh;
+    left: 1vw;
+    opacity: 0.9;
+    transition: all 0.4s ease-in-out;
+}
+
+#myimage:hover{
+    opacity: 1;
+    border-radius: 5px;
+    padding: 5px;
+}
