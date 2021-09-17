@@ -21,7 +21,7 @@ body{
     top: 0;
     width: 100%;
     height: 10vh;
-    z-index:1;
+    z-index:40;
     justify-content: space-between;
     position: fixed;
     opacity: 0.8;
@@ -34,7 +34,7 @@ h1{
     stroke: #64ffda;
 }
 #navbar1{
-    z-index:1;
+    z-index:40;
     cursor: context-menu;
     color: white;
     font-family: monospace;
@@ -658,12 +658,44 @@ div>p{
 #getintouch>p{
     position: relative;
     top: 280vh;
-    left: 36%;
-    width: 25vw;
+    left: 28vw;
+    width: 38vw;
     height: 15vh;
     overflow: hidden;
     text-align: center;
     font-size: larger;
     color: #a8b2d1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contactus{
+    position: relative;
+    top: 290vh;
+    left: 3vw;
+    padding: 1em 4em;
+    border: 2px solid #64ffda;
+    border-radius: 5px;
+    color: #64ffda;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s;
+}
+
+#contactus:hover{
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+#design{
+    position: relative;
+    top: 320vh;
+    height: 5vh;
+    text-align: center;
+    left: -3vh;
+    font-family: monospace;
+    color: #a8b2d1; 
+    transition: all 0.5s;
+}
+
+#design:hover{
+    color: #64ffda;
 }
