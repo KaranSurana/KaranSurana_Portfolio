@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karan Surana</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="android-chrome-512x512.png" type="image/x-icon">
+    
     <script src="https://kit.fontawesome.com/1f11bbce79.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header id="header">
+    <header id="header1">
         <svg id="logosvg" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
@@ -21,7 +23,7 @@
             </defs>
             <polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)" />
         </svg>
-        <div id="navbar">
+        <div id="navbar1">
             <a>About</a>
             <a>Experience</a>
             <a>Work</a>
@@ -40,11 +42,11 @@
         <line x1="0" y1="0" x2="0" y2="200" style="stroke:#a8b2d1;stroke-width:5" />
         Sorry, your browser does not support inline SVG.
     </svg>
-    <svg height="210" width="500" id="verticalline">
+    <svg style="z-index:1" height="210" width="500" id="verticalline">
         <line x1="0" y1="0" x2="0" y2="200" style="stroke:#a8b2d1;stroke-width:5" />
         Sorry, your browser does not support inline SVG.
     </svg>
-    <a id="email" href="mailto:karansurana23@gmail.com">karansurana23@gmail.com</a>
+    <a style="z-index:1" id="email" href="mailto:karansurana23@gmail.com">Karansurana23@gmail.com</a>
 
     <h2 id="first_statement">Hi, My Name Is</h2>
     <h1 id="name"><span id="color_change">Karan Surana.</span><br>I build exciting things.</h1>
@@ -113,11 +115,59 @@
 
 
     <h3 id="work">Where I've Worked</h3>
-    <svg id="line_aboutme1" height="210" width="500">
+    <svg style="z-index: 2;" id="line_aboutme1" height="210" width="500">
         <line x1="0" y1="0" x2="250" y2="0" style="stroke:#888;stroke-width:0.4" />
         Sorry, your browser does not support inline SVG.
     </svg>
-
+    <div style="position: relative; z-index: 4; width: 45vw; left: 17vw;" class="tabs">
+        <div class="tab">
+            <input type="checkbox" id="chck3" checked>
+            <label class="tab-label" for="chck3">The Query Crew</label>
+            <div class="tab-content">
+                <br>
+              Founder <a class="colorchange" style="text-decoration: none;" href="https://www.linkedin.com/company/thequerycrew/">@The Query Crew</a><br><br>
+              August 2021 - Present<br><br>
+              <i class="fas fa-caret-right"></i>‘The Query Crew’ is our way of helping our peers achieve their goals by &nbsp;&nbsp;providing the necessary resources for it.<br><br>
+              <i class="fas fa-caret-right"></i>The Query Crew aims to simplify programming and open source!
+            </div>
+          </div>
+        <div style="z-index: 4;" class="tab">
+          <input style="z-index: 4;" type="checkbox" id="chck1">
+          <label style="z-index: 4;" class="tab-label" for="chck1">NeuralTechSoft</label>
+          <div style="z-index: 4;" class="tab-content">
+            <br>
+            Web Development Intern <a class="colorchange" style="text-decoration: none;" href="https://www.neuraltechsoft.com/">@NeuralTechSoft</a><br><br>
+              July 2021 - Present<br><br>
+              <i class="fas fa-caret-right"></i>Front End of the web-application presented to South African company.<br><br>
+              <i class="fas fa-caret-right"></i>Used Javascript for the pricing, valuation, risk management of the stocks & &nbsp;commodities.<br><br>
+              &nbsp;<a href="https://drive.google.com/file/d/15d0bizPf-xgnVIOLEvknQdgZStjD6_ww/view?usp=sharing" class="colorchange">Click Here For Certificate</a>
+          </div>
+        </div>
+        <div class="tab">
+          <input type="checkbox" id="chck2">
+          <label class="tab-label" for="chck2">TechoKids</label>
+          <div class="tab-content"><br>
+            Python Instructor Intern <a class="colorchange" style="text-decoration: none;" href="https://www.techokids.com/">@TechoKids</a><br><br>
+              April 2021 - July 2021<br><br>
+              <i class="fas fa-caret-right"></i>Python Instructor<br><br>
+              <i class="fas fa-caret-right"></i>Instructing Students With My Knowledge In Python.<br><br>
+              &nbsp;<a href="https://drive.google.com/file/d/1OFMI31O2xrZagrEY5bQBvVhYbf0oPjDa/view?usp=sharing" class="colorchange">Click Here For LOR</a>
+          </div>
+        </div>
+        <div class="tab">
+            <input type="checkbox" id="chck4">
+            <label class="tab-label" for="chck4">V. Bapna & Associates</label>
+            <div class="tab-content"><br>
+                Web Development Intern <span class="colorchange">@V. Bapna & Associates</span><br><br>
+                  January 2021 - April 2021<br><br>
+                  <i class="fas fa-caret-right"></i>Developing Aesthetic Websites For Clients Using My Skills.<br><br>
+                  <i class="fas fa-caret-right"></i>Instructing Students With My Knowledge In Python.<br><br>
+                  &nbsp;<a href="https://drive.google.com/file/d/1OFMI31O2xrZagrEY5bQBvVhYbf0oPjDa/view?usp=sharing" class="colorchange">Click Here For LOR</a>
+              </div>
+          </div>
+          
+      </div>
+    </div>
 
 
     <h3 id="built">Some Things I've Built</h3>
