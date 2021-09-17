@@ -250,7 +250,7 @@ h4{
     color: #ccd6f6;
     font-size: x-large;
     position: relative;
-    top: 120vh;
+    top: 30vh;
     left: 17vw;
   }
   #line_aboutme1{
@@ -260,7 +260,7 @@ h4{
   }
   #line_aboutme2{
     position: relative;
-    top: 117.9vh;
+    top: 27.9vh;
     left: 34vw;
   }
 
@@ -325,4 +325,72 @@ div>p{
     opacity: 1;
     border-radius: 5px;
     padding: 5px;
+}
+
+
+#screenshots{
+    height: 50vh;
+    width: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 17vw;
+    
+}
+
+#screenshots > img{
+    width: 40vw;
+    height: 45vh;
+}
+
+#featured1{
+    position: relative;
+    left: 60vw;
+    top: -30vh;
+    color: #64ffda;
+    font-family: monospace;
+}
+
+#neuraltechsoft{
+    position: relative;
+    top: 10vh;
+}
+
+#namefeature1{
+    color: #ccd6f6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: -26vh;
+    left: 41vw;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#description{
+    position: relative;
+    top: -23vh;
+    left: 35vw;
+    z-index: 20;
+    background-color: #112240;
+    width: 45vw;
+    height: 15vh;
+    border-radius: 5px;
+    
+}
+
+
+#description>p{
+    background-color: #112240;
+    color: #ccd6f6;
+    position: relative;
+    left: 4vw;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.8em;
+}
+#specialline{
+    background-color: #112240;
 }
