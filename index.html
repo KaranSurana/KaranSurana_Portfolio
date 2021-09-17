@@ -16,28 +16,35 @@
 <body>
     <header id="header1">
         <svg id="logosvg" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
             <defs>
                 <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
                     <image xlink:href="assets/images/logo_up.png" x="-25" width="150" height="100" />
                 </pattern>
             </defs>
-            <polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)" />
+
+            <a href="#">
+                <polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)" />
+            </a>
         </svg>
         <div id="navbar1">
-            <a>About</a>
-            <a>Experience</a>
-            <a>Work</a>
-            <a>Contact</a>
-            <a id="resume">Resume</a>
+            <a class="colorfix" href="#about1">About</a>
+            <a class="colorfix" href="#exp">Experience</a>
+            <a class="colorfix" href="#workk">Work</a>
+            <a class="colorfix" href="#contactt">Contact</a>
+            <a class="colorfix"
+                href="https://drive.google.com/file/d/1C0OVU81DMqNzknbC3fFgnHzRxUR0Hl9H/view?usp=sharing" id="resume"
+                target="_blank" style="text-decoration: none;">Resume</a>
         </div>
 
 
     </header>
     <br><br><br>
-    <a href="https://www.github.com/KaranSurana"><i id="first" class="fab fa-github"></i></a>
-    <a href="https://www.twitter.com/KaranSurana96"><i id="second" class="fab fa-twitter"></i></a>
-    <a href="https://www.instagram.com/__kkarann__"><i id="third" class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/in/karan-surana-/"><i id="fourth" class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.github.com/KaranSurana" target="_blank"><i id="first" class="fab fa-github"></i></a>
+    <a href="https://www.twitter.com/KaranSurana96" target="_blank"><i id="second" class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/__kkarann__" target="_blank"><i id="third" class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/karan-surana-/" target="_blank"><i id="fourth"
+            class="fab fa-linkedin-in"></i></a>
     <svg height="210" width="500" id="vertical_line">
         <line x1="0" y1="0" x2="0" y2="200" style="stroke:#a8b2d1;stroke-width:5" />
         Sorry, your browser does not support inline SVG.
@@ -53,15 +60,16 @@
     <h4>I am an enthusiastic self-taught MERN stack developer and a competitive programmer. My passion for software lies
         with dreaming up ideas and making them come true with elegant interfaces.</h4>
 
-    <a href="https://www.github.com/KaranSurana" id="calltoaction">Check Out My Github!</a>
+    <a href="https://www.github.com/KaranSurana" id="calltoaction" target="_blank">Check Out My Github!</a>
 
-
+    <p id="about1" style="position: relative; top: 50vh;"></p>
     <h3 id="about" class="fade">About Me</h3>
     <svg id="line_aboutme" height="210" width="500">
         <line x1="0" y1="0" x2="250" y2="0" style="stroke:#888;stroke-width:1.5" />
         Sorry, your browser does not support inline SVG.
     </svg>
-    <p id="aboutpara" class="fade">Hello! My name is <span class="colorchange">Karan</span> and I am a fullstack developer and a
+    <p id="aboutpara" class="fade">Hello! My name is <span class="colorchange">Karan</span> and I am a fullstack
+        developer and a
         competitive programmer.
         My interest in Web Development stimulated when i started developing websites using Basic HTML, CSS & JavaScript,
         after that i started discovering different technologies & Framework to enhance my skillset.
@@ -113,7 +121,7 @@
     </div>
 
 
-
+    <p id="exp" style="position: relative; top: 10vh;"></p>
     <h3 class="fade" id="work">Where I've Worked</h3>
     <svg style="z-index: 2;" id="line_aboutme1" height="210" width="500">
         <line x1="0" y1="0" x2="250" y2="0" style="stroke:#888;stroke-width:0.4" />
@@ -126,7 +134,7 @@
             <div class="tab-content">
                 <br>
                 Founder <a class="colorchange" style="text-decoration: none;"
-                    href="https://www.linkedin.com/company/thequerycrew/">@The Query Crew</a><br><br>
+                    href="https://www.linkedin.com/company/thequerycrew/" target="_blank">@The Query Crew</a><br><br>
                 August 2021 - Present<br><br>
                 <i class="fas fa-caret-right"></i>‘The Query Crew’ is our way of helping our peers achieve their goals
                 by &nbsp;&nbsp;providing the necessary resources for it.<br><br>
@@ -139,13 +147,14 @@
             <div style="z-index: 4;" class="tab-content">
                 <br>
                 Web Development Intern <a class="colorchange" style="text-decoration: none;"
-                    href="https://www.neuraltechsoft.com/">@NeuralTechSoft</a><br><br>
+                    href="https://www.neuraltechsoft.com/" target="_blank">@NeuralTechSoft</a><br><br>
                 July 2021 - Present<br><br>
                 <i class="fas fa-caret-right"></i>Front End of the web-application presented to South African
                 company.<br><br>
                 <i class="fas fa-caret-right"></i>Used Javascript for the pricing, valuation, risk management of the
                 stocks & &nbsp;commodities.<br><br>
-                &nbsp;<a href="https://drive.google.com/file/d/15d0bizPf-xgnVIOLEvknQdgZStjD6_ww/view?usp=sharing"
+                &nbsp;<a target="_blank"
+                    href="https://drive.google.com/file/d/15d0bizPf-xgnVIOLEvknQdgZStjD6_ww/view?usp=sharing"
                     class="colorchange">Click Here For Certificate</a>
             </div>
         </div>
@@ -154,12 +163,12 @@
             <label class="tab-label" for="chck2">TechoKids</label>
             <div class="tab-content"><br>
                 Python Instructor Intern <a class="colorchange" style="text-decoration: none;"
-                    href="https://www.techokids.com/">@TechoKids</a><br><br>
+                    href="https://www.techokids.com/" target="_blank">@TechoKids</a><br><br>
                 April 2021 - July 2021<br><br>
                 <i class="fas fa-caret-right"></i>Python Instructor<br><br>
                 <i class="fas fa-caret-right"></i>Instructing Students With My Knowledge In Python.<br><br>
                 &nbsp;<a href="https://drive.google.com/file/d/1OFMI31O2xrZagrEY5bQBvVhYbf0oPjDa/view?usp=sharing"
-                    class="colorchange">Click Here For LOR</a>
+                    class="colorchange" target="_blank">Click Here For LOR</a>
             </div>
         </div>
         <div class="tab">
@@ -177,7 +186,7 @@
     </div>
     </div>
 
-
+    <p id="workk" style="position: relative; top: 20vh;"></p>
     <h3 class="fade" id="built">Some Things I've Built</h3>
     <svg id="line_aboutme2" height="210" width="500">
         <line x1="0" y1="0" x2="250" y2="0" style="stroke:#888;stroke-width:1.5" />
@@ -198,8 +207,9 @@
             </p>
 
         </div>
-        <a href="https://github.com/KaranSurana/NeuralTechSoft"><i id="githubneural" class="fab fa-github"></i></a>
-        <a href="https://karansurana.github.io/NeuralTechSoft/"><i id="redirectneural"
+        <a href="https://github.com/KaranSurana/NeuralTechSoft" target="_blank"><i id="githubneural"
+                class="fab fa-github"></i></a>
+        <a href="https://karansurana.github.io/NeuralTechSoft/" target="_blank"><i id="redirectneural"
                 class="fas fa-external-link-alt"></i></a>
         <br><br><br><br><br><br><br><br>
         <img class="fade" id="eden" src="assets/images/eden.PNG">
@@ -210,12 +220,14 @@
             <p class="fade" style="display: inline-block;">
                 Eden Is Your Smart Personal Assistant, Using Which You Can Perform Your Tasks, Making Your Life Easier!
                 Eden Is In Development Stage.
-                <span class="colorchange fade" id="specialline2">I Developed this website in my third year as a student in
+                <span class="colorchange fade" id="specialline2">I Developed this website in my third year as a student
+                    in
                     college.</span>
             </p>
         </div>
-        <a href="https://github.com/KaranSurana/Eden"><i id="githubeden" class="fab fa-github"></i></a>
-        <a href="https://github.com/KaranSurana/Eden"><i id="redirecteden" class="fas fa-external-link-alt"></i></a>
+        <a href="https://github.com/KaranSurana/Eden" target="_blank"><i id="githubeden" class="fab fa-github"></i></a>
+        <a href="https://github.com/KaranSurana/Eden" target="_blank"><i id="redirecteden"
+                class="fas fa-external-link-alt"></i></a>
         <br><br><br><br><br><br><br><br>
         <img class="fade" id="todo" src="assets/images/todo.png">
         <h3 class="fade" id="featured3">Featured Project</h3>
@@ -227,11 +239,12 @@
                     Ninjas.</span>
             </p>
         </div>
-        <a href="https://github.com/KaranSurana/ToDoList"><i id="githubtodo" class="fab fa-github"></i></a>
-        <a href="https://github.com/KaranSurana/ToDoList/"><i id="redirecttodo"
+        <a href="https://github.com/KaranSurana/ToDoList" target="_blank"><i id="githubtodo"
+                class="fab fa-github"></i></a>
+        <a href="https://github.com/KaranSurana/ToDoList/" target="_blank"><i id="redirecttodo"
                 class="fas fa-external-link-alt"></i></a>
         <br><br><br><br><br><br><br><br>
-        <img  class="fade" id="music" src="assets/images/music.PNG">
+        <img class="fade" id="music" src="assets/images/music.PNG">
         <h3 class="fade" id="featured4">Featured Project</h3>
         <span class="fade" id="namefeature4">Stock & Commodity Web Application</span>
         <div class="fade" id="description4">
@@ -242,14 +255,16 @@
                     Ninjas.</span>
             </p>
         </div>
-        <a href="https://github.com/KaranSurana/MusicApp"><i id="githubmusic" class="fab fa-github"></i></a>
-        <a href="https://karansurana.github.io/MusicApp/"><i id="redirectmusic"
+        <a href="https://github.com/KaranSurana/MusicApp" target="_blank"><i id="githubmusic"
+                class="fab fa-github"></i></a>
+        <a href="https://karansurana.github.io/MusicApp/" target="_blank"><i id="redirectmusic"
                 class="fas fa-external-link-alt"></i></a>
     </div>
-
+    <p id="contactt" style="position: relative; top: 260vh;"></p>
     <div class="fade" id="getintouch">
         <h1 class="fade">Get In Touch</h1>
-        <p class="fade">I’m currently looking for new opportunities, my inbox is always open. Whether it's an opportunity or even a
+        <p class="fade">I’m currently looking for new opportunities, my inbox is always open. Whether it's an
+            opportunity or even a
             question, I’ll get back to you!</p>
 
         <a class="fade" id="contactus" href="mailto:karansurana23@gmail.com">Say Hello!</a>
@@ -257,7 +272,7 @@
 
 
     <p id="design">Designed & Built by Karan Surana</p>
-    
+
     <script src="assets/js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script>

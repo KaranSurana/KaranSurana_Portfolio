@@ -615,7 +615,13 @@ div>p{
     top: -25.4vh;
     left: 2.5vw; 
 }
-
+html {
+    scroll-behavior: smooth;
+  }
+.colorfix{
+    color: #64ffda;
+    text-decoration: none;
+}
 
 #githubtodo{
     font-size: x-large;
