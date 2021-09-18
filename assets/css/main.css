@@ -7,9 +7,10 @@
     }
     .text-effect {
         overflow: hidden;
-        position: relative;
+        
         visibility: visible;
-        top: 40vh;
+        position: absolute;
+        top: 40%;
         display: grid;
         justify-content: center;    
         filter: contrast(110%) brightness(190%);
@@ -106,7 +107,8 @@
         display:block !important;
         background: black;
         display: flex;
-        min-height: 100vh;
+        height: 100%;
+        width: 100%;
         justify-content: center;
         align-content: center;
         align-items: center;
